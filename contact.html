@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="login-box">
+            <h1>This is a contact form</h1>
+            <form action="" method="post">
+                <label>Email</label>
+                <input type="email" placeholder="enter your email" name="email" required="">
+                <label>Password <input type="checkbox" onclick="Toggle()"> Show password </label>
+                <input type="password" placeholder="enter your password" name="password" id="typepass" required="">
+                <label>Message</label>
+                <textarea style="font-size: 20px; color:#000; font-family:'Times New Roman', Times, serif "
+                name="message" id="message" cols="33" rows="4"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
