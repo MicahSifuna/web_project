@@ -24,8 +24,8 @@ function Toggle() {
 // https://cdnjs.com/libraries/typed.js
 let typed = new Typed(".typing", {
     strings: ["Code Essentials ke", "Micah Wolf", "James Bond", "John Smith"],
-    typedSpeed: 100,
-    backSpeed: 60,
+    typedSpeed: 60,
+    backSpeed: 100,
     loop: true
 });
 

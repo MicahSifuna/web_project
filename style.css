@@ -1,6 +1,7 @@
 body {
     margin: 1;
     font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
 }
 .image img {
     width: 6%;
